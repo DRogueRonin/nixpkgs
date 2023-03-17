@@ -195,6 +195,8 @@ lib.makeScope pkgs.newScope (self: with self; {
 
     phpcs = callPackage ../development/php-packages/phpcs { };
 
+    phpDocumentor = callPackage ../development/php-packages/phpDocumentor { };
+
     phpmd = callPackage ../development/php-packages/phpmd { };
 
     phpstan = callPackage ../development/php-packages/phpstan { };
