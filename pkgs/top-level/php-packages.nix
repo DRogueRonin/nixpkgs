@@ -191,6 +191,8 @@ lib.makeScope pkgs.newScope (self: with self; {
 
     php-parallel-lint = callPackage ../development/php-packages/php-parallel-lint { };
 
+    phpactor = callPackage ../development/php-packages/phpactor { inherit fetchGit phpPackages; };
+
     phpcbf = callPackage ../development/php-packages/phpcbf { };
 
     phpcs = callPackage ../development/php-packages/phpcs { };
